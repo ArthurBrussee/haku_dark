@@ -1,4 +1,6 @@
-![Haku Dragon](images/dragon.webp)
+<p align="center">
+  <img src="./images/dragon.webp" />
+</p>
 
 # Haku Dark
 
