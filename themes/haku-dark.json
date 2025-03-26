@@ -8,13 +8,13 @@
       "appearance": "dark",
       "style": {
         "surface.background": "#212121",
-        "elevated_surface.background": "#262626",
+        "elevated_surface.background": "#3e453e",
         "editor.background": "#181818",
-        "title_bar.background": "#1b2918",
-        "panel.background": "#121212",
-        "tab_bar.background": "#121212",
+        "title_bar.background": "#192717",
+        "panel.background": "#131313",
+        "tab_bar.background": "#131313",
         "editor.gutter.background": "#181818",
-        "status_bar.background": "#121212",
+        "status_bar.background": "#131313",
         "toolbar.background": "#181818",
         "tab.active_background": "#181818",
         "tab.inactive_background": "#141414",
@@ -26,7 +26,7 @@
         "text.disabled": "#6c6c6c",
         "text.accent": "#91b99bff",
         "editor.line_number": "#6c6c6c",
-        "editor.active_line_number": "#cfcfcf",
+        "editor.active_line_number": "#afbaba",
         "ghost_element.background": "#c3ffcc00",
         "element.hover": "#323d554d",
         "element.active": "#323d55ff",
@@ -36,7 +36,7 @@
         "ghost_element.selected": "#323d55ff",
         "ghost_element.disabled": "#dff1e105",
         "drop_target.background": "#7c9daf21",
-        "editor.active_line.background": "#cfc8c408",
+        "editor.active_line.background": "#337ebb08",
         "border": "#cacaca09",
         "border.variant": "#b4cbaf2f",
         "border.focused": "#abdba12f",
@@ -57,7 +57,7 @@
         "editor.document_highlight.write_background": "#734b1e3a",
         "editor.document_highlight.bracket_background": "#734b1e3a",
         "editor.highlighted_line.background": "#734b1e3a",
-        "editor.invisible": "#d773be",
+        "editor.invisible": "#b48ba9",
         "success": "#3acf46",
         "info": "#86b2e0",
         "info.background": "#5a90c51d",
@@ -72,11 +72,11 @@
         "hint.background": "#473336ff",
         "hint.border": "#93797dff",
         "predictive": "#6d484dff",
-        "predictive.background": "#473336ff",
-        "predictive.border": "#93797dff",
-        "created": "#ecdd6e",
-        "created.background": "#ecdd6e",
-        "created.border": "#ecdd6e",
+        "predictive.background": "#473336b6",
+        "predictive.border": "#473336b6",
+        "created": "#e0e48a",
+        "created.background": "#ecefae31",
+        "created.border": "#ecefae31",
         "ignored": "#6c6c6c",
         "ignored.background": "#6c6c6c",
         "ignored.border": "#6c6c6c",
@@ -108,6 +108,8 @@
         "terminal.ansi.white": "#cfcfcf",
         "terminal.ansi.bright_white": "#f8f8f2",
         "link_text.hover": "#8bc2ea",
+        "version_control.deleted": "#c53131c0",
+        "version_control.added": "#3ea741c0",
         "players": [
           {
             "cursor": "#ffffffb3",
@@ -195,12 +197,12 @@
             "color": "#96a6ff",
             "font_style": null,
             "font_weight": null
-          },
+          }, // Italic removed
           "constructor": {
             "color": "#96a6ff",
             "font_style": null,
             "font_weight": null
-          },
+          }, // Italic removed
           "operator": {
             "color": "#9cb8d1",
             "font_style": null,
@@ -270,12 +272,12 @@
             "color": "#55959bff",
             "font_style": null,
             "font_weight": null
-          },
+          }, // Italic removed
           "variable.special": {
             "color": "#eded9d",
             "font_style": null,
             "font_weight": 700
-          },
+          }, // Italic removed, bold kept
           "attribute": {
             "color": "#cfcfcf",
             "font_style": null,
@@ -295,7 +297,7 @@
             "color": "#759ff9",
             "font_style": "italic",
             "font_weight": null
-          },
+          }, // Italic kept
           "title": {
             "color": "#a5cf97",
             "font_style": null,
@@ -305,12 +307,12 @@
             "color": "#70ae67",
             "font_style": "italic",
             "font_weight": null
-          },
+          }, // Italic kept
           "emphasis.strong": {
             "color": "#70ae67",
             "font_style": "italic",
             "font_weight": 700
-          }
+          } // Italic & bold kept
         }
       }
     }
