@@ -10,7 +10,7 @@
         "surface.background": "#212121",
         "elevated_surface.background": "#3e453e",
         "editor.background": "#181818",
-        "title_bar.background": "#192717",
+        "title_bar.background": "#172317",
         "panel.background": "#131313",
         "tab_bar.background": "#131313",
         "editor.gutter.background": "#181818",
@@ -197,12 +197,12 @@
             "color": "#96a6ff",
             "font_style": null,
             "font_weight": null
-          }, // Italic removed
+          },
           "constructor": {
             "color": "#96a6ff",
             "font_style": null,
             "font_weight": null
-          }, // Italic removed
+          },
           "operator": {
             "color": "#9cb8d1",
             "font_style": null,
@@ -272,12 +272,12 @@
             "color": "#55959bff",
             "font_style": null,
             "font_weight": null
-          }, // Italic removed
+          },
           "variable.special": {
             "color": "#eded9d",
             "font_style": null,
             "font_weight": 700
-          }, // Italic removed, bold kept
+          },
           "attribute": {
             "color": "#cfcfcf",
             "font_style": null,
@@ -297,7 +297,7 @@
             "color": "#759ff9",
             "font_style": "italic",
             "font_weight": null
-          }, // Italic kept
+          },
           "title": {
             "color": "#a5cf97",
             "font_style": null,
@@ -307,12 +307,12 @@
             "color": "#70ae67",
             "font_style": "italic",
             "font_weight": null
-          }, // Italic kept
+          },
           "emphasis.strong": {
             "color": "#70ae67",
             "font_style": "italic",
             "font_weight": 700
-          } // Italic & bold kept
+          }
         }
       }
     }
